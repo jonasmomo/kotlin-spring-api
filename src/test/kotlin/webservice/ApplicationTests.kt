@@ -1,4 +1,4 @@
-package hello
+package webservice
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

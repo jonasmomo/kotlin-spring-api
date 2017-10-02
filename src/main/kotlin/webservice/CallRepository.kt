@@ -1,4 +1,4 @@
-package hello
+package webservice
 
 import org.springframework.data.repository.CrudRepository
 

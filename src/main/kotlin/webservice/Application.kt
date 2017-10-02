@@ -1,4 +1,4 @@
-package hello
+package webservice
 
 import org.slf4j.LoggerFactory
 import org.springframework.boot.CommandLineRunner

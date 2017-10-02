@@ -15,6 +15,7 @@ class Application {
 	fun init(ar: AgentRepository, cr: CallRepository) = CommandLineRunner { // initierer repos
 
         ar.save(Agent("Kenan", "CocaCola", ""))
+        ar.save(Agent("Jonas", "Myrmoen", ""))
         ar.save(Agent("Kim", "Els", ""))
         ar.save(Agent("Thumæs", "Wålsæfer", ""))
 

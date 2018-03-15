@@ -17,7 +17,6 @@ class Application {
         ar.save(Agent("Kenan", "CocaCola", ""))
         ar.save(Agent("Jonas", "Myrmoen", ""))
         ar.save(Agent("Kim", "Els", ""))
-        ar.save(Agent("Thumæs", "Wålsæfer", ""))
 
 
         cr.save(Call("test1", "tlf:123"))

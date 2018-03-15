@@ -17,7 +17,11 @@ class ApplicationTests {
 
 	@Test
 	fun findAll() {
-		val content = """[{"firstName":"Kenan","lastName":"CocaCola","sip":"","id":1},{"firstName":"Jonas","lastName":"Myrmoen","sip":"","id":2},{"firstName":"Kim","lastName":"Els","sip":"","id":3},{"firstName":"Thumæs","lastName":"Wålsæfer","sip":"","id":4}]"""
+		val content = """[
+			{"firstName":"Kenan","lastName":"CocaCola","sip":"","id":1},
+			{"firstName":"Jonas","lastName":"Myrmoen","sip":"","id":2},
+			{"firstName":"Kim","lastName":"Els","sip":"","id":3}]"""
+
 		assertEquals(content, restTemplate.getForEntity("/agent", String::class.java).body)
 	}
 

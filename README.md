@@ -1,1 +1,1 @@
-Rest webservice testorama
+Kotlin web service test project
